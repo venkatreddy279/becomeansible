@@ -9,7 +9,7 @@ RUN  yum check-update; \
 
 RUN pip3 install boto; \
    pip3 install boto3; \
-   pi3 install botocore; \
+   pip3 install botocore; \
    pip3 install awscli; \
    pip3 install "pywinrm>=0.3.0"; \ 
    pip3 install "ansible==2.9.12"
